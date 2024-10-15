@@ -1,0 +1,42 @@
+
+\begin{tabular}{llllll}
+\toprule
+Variable & Comparison & Gemini & GPT-3.5 & GPT-4 & Llama 2\\
+\midrule
+Black Female &  & 0.938 & 0.974 & 0.814 & 0.9\\
+
+Overlap &  & 0.936 & 0.593 & 0.007 & 0.2\\
+
+White Female & \multirow{-3}{*}{\raggedright\arraybackslash Black Female by White Female} & <0.001 & <0.001 & <0.001 & <0.001\\
+\cmidrule{1-6}
+Black Female &  & 0.938 & 0.816 & 0.752 & 1.0\\
+
+Black Male &  & 0.376 & 0.013 & 0.001 & 1.0\\
+
+Overlap & \multirow{-3}{*}{\raggedright\arraybackslash Black Male by Black Female} & <0.001 & <0.001 & <0.001 & <0.001\\
+\cmidrule{1-6}
+Black Male &  & 0.551 & 0.595 & 0.545 & 0.3\\
+
+Overlap &  & 0.999 & 0.070 & 0.803 & <0.001\\
+
+White Male & \multirow{-3}{*}{\raggedright\arraybackslash Black Male by White Male} & <0.001 & <0.001 & <0.001 & <0.001\\
+\cmidrule{1-6}
+Black Male &  & 0.036 & 0.526 & 0.092 & 0.7\\
+
+Overlap &  & 0.979 & 0.001 & 0.146 & 0.5\\
+
+White Female & \multirow{-3}{*}{\raggedright\arraybackslash White Female by Black Male} & 0.001 & <0.001 & <0.001 & <0.001\\
+\cmidrule{1-6}
+Black Female &  & 0.034 & 0.226 & 0.119 & 0.5\\
+
+Overlap &  & 0.999 & 0.232 & 0.998 & <0.001\\
+
+White Male & \multirow{-3}{*}{\raggedright\arraybackslash White Male by Black Female} & <0.001 & <0.001 & <0.001 & <0.001\\
+\cmidrule{1-6}
+Overlap &  & 0.515 & 0.344 & 0.192 & 0.6\\
+
+White Female &  & <0.001 & 0.999 & 0.982 & 1.0\\
+
+White Male & \multirow{-3}{*}{\raggedright\arraybackslash White Male by White Female} & <0.001 & <0.001 & <0.001 & <0.001\\
+\bottomrule
+\end{tabular}
